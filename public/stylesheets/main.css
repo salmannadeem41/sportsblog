@@ -1,0 +1,67 @@
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 5px;
+}
+
+#delete-form {
+  display: inline;
+}
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  /* Header/Logo Title */
+  .header {
+    
+    padding: 60px;
+    text-align: center;
+    background: #1b201f;
+    color: white;
+    font-size: 15px;
+  }
+  
+
+  .contain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 1.5s;
+  }
+
+  .button:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee ;
+  }
+  
+  .body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
